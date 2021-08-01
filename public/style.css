@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&family=Roboto:wght@300&family=Titillium+Web:wght@200;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.ico{
+    font-size: 45px;
+    color: rgb(52, 152, 177);
+}
+.bg-aqua{
+    background: rgb(66, 194, 226);
+}
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Titillium Web', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+h1,h2,h3,h4,h5,h6,a,p,ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+#carouselExampleControls {
+	overflow: hidden;
+	background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?size=626&ext=jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	clip-path: polygon(100% 0%,100% 85%,0% 100%,0% 0%);
+}
+.navbar-brand{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+/* .my-clip1{
+    clip-path: polygon(100% 0%,100% 100%,0% 90%,0% 10%);
+} */
+.my-clip1{
+    clip-path: polygon(100% 0%,100% 85%,0% 100%,0% 0%);
+}
+.height{
+    height: 90vh;
+}
+.hhh{
+    height: 70%;
+}
+.bg-aqua-light{
+    background: rgb(95, 207, 207);
+}
+.bg-success-light{
+    background: rgb(40, 149, 82);
+}
+.bg-primary-light{
+    background: rgb(95, 121, 207);
+}
+.hw{
+    height: 3rem;
+    width: 3rem;
+}
